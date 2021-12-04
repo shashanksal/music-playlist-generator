@@ -1,0 +1,21 @@
+{
+    "env": {
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+        "requireConfigFile": false
+	},
+    "parser": "@babel/eslint-parser",
+	"rules": {
+		"camelcase": "error",
+		"no-console": "error",
+		"no-var": "error",
+		"one-var": ["error", "never"],
+		"prefer-const": "error",
+		"quotes": ["warn", "double", { "avoidEscape": true }]
+	}
+}
