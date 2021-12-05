@@ -1,0 +1,34 @@
+{
+	"name": "music-playlist-generator",
+	"version": "1.0.0",
+	"description": "Music playlist generator",
+	"main": "index.ts",
+	"scripts": {
+		"test": "npm run test",
+		"lint": "eslint '**/*.ts' --ignore-pattern node_modules/ --ignore-pattern scripts/",
+		"lint:fix": "npm run lint -- --fix"
+	},
+	"author": "Shashank Salunkhe",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.5.4",
+		"@types/aws-lambda": "^8.10.85",
+		"@types/node": "^16.11.11",
+		"eslint": "^8.4.0",
+		"prettier": "^2.5.1",
+		"tslint": "^6.1.3",
+		"typescript": "^4.5.2"
+	},
+	"dependencies": {
+		"@middy/core": "^2.5.3",
+		"@middy/http-error-handler": "^2.5.3",
+		"@middy/http-json-body-parser": "^2.5.3",
+		"@middy/input-output-logger": "^2.5.3",
+		"@middy/validator": "^2.5.3",
+		"aws-sdk": "^2.1043.0",
+		"dotenv": "^10.0.0",
+		"pino": "^7.5.1",
+		"spotify-web-api-node": "^5.0.2",
+		"uuid": "^3.3.2"
+	}
+}
