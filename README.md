@@ -37,3 +37,10 @@ Once database container is up and running, run scripts to initialise the table a
 ## Simple build for production
 
     $ npm build
+
+## Reflection
+
+The API is non-functional at this stage.
+The API is developed considering a serverless function model, example AWS Lambda or Azure functions, etc. Template file can be added as required.
+
+Although some of non-functional components, etc linting can be performed. 
