@@ -14,7 +14,7 @@ For development, you will only need Node.js (x14) and a node global package, Npm
 
 ## Install
 
-    $ git clone https://github.com/shashanksal/music-playlist-generator
+    $ git clone https://github.com/shashanksal/music-playlist-generator.git
     $ cd music-playlist-generator
     $ npm install
 
