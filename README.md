@@ -1,8 +1,4 @@
-# Project Title
-
-Music playlist generator
-
----
+# Music playlist generator
 
 ## Description
 A random music player generator. The API generates a random music player list depending upon the user logged in to the network. 
