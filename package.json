@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.5.4",
 		"@types/aws-lambda": "^8.10.85",
-		"@types/node": "^16.11.11",
+		"@types/node": "^20.0.0",
 		"eslint": "^8.4.0",
 		"prettier": "^2.5.1",
 		"tslint": "^6.1.3",
