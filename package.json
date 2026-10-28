@@ -11,7 +11,7 @@
 	"author": "Shashank Salunkhe",
 	"license": "ISC",
 	"devDependencies": {
-		"@babel/eslint-parser": "^7.5.4",
+		"@babel/eslint-parser": "^8.0.0",
 		"@types/aws-lambda": "^8.10.85",
 		"@types/node": "^16.11.11",
 		"eslint": "^8.4.0",
